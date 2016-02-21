@@ -1,0 +1,18 @@
+<div class="l">
+<button class="b" onClick="ax('type=ajax&pin=6&state=2','info')">Pin 6</button>
+<button onClick="ax('type=ajax&pin=6&state=1','info')">ON</button>
+<button onClick="ax('type=ajax&pin=6&state=0','info')">off</button>
+<button onClick="ax('type=ajax&pin=6&state=2&delay=3600','info')">1h</button>
+<h2 id="time6"></h2>
+</div>
+
+<div class="l">
+<input id="st6" type="range" min="0" max="170" value="0" onChange="sTime(6,this.value)">
+</div>
+
+<div class="l ca" style="display:none">
+Start <input type="time" id="dt6" onChange="ax('type=time&pin=6&act=start&time='+this.value,'info')"><br />
+Stop <input  type="time" id="dp6" onChange="ax('type=time&pin=6&act=stop&time='+this.value,'info')">
+<i class="pwm" id="pwm6">PWM</i>
+<input id="s6" type="range" min="0" max="1023" value="0" step="20" onChange="suwak(6,this.value)">
+</div>

@@ -1,0 +1,21 @@
+body,button{font:normal 20px Verdana; margin:0.2em}
+body{background:#444; color:#eee}
+.c{text-align:center}
+.l{text-align:left}
+.r{max-width:600px; margin:0 auto}
+input {color:#444}
+div,input, button, pre,#info,#kody {position:relative;padding:1px; margin:8px 0;}
+#odczyt,#info,#kody {background:#124;line-height: 1.7em;min-height: 5em}
+button,textarea,input{margin:0.15em}
+span,button,input[type="submit"] {background:#bbb; color:#000; border:1px solid;border-radius:1em;min-width:1.7em;line-height: 1.5em; text-align:center;padding:6px 8px}
+span {font-size:20px;color:white}
+button:hover,button:active,button:focus{color:#eee;outline: none}
+button:active{background:#fa4}
+.pin1 {background:darkred}
+.pin0 {background:#111}
+input[type="range"]{display: block;width:85%; margin:0.3em 0}
+p,i{float:right}
+.p0{padding:0}
+.b{font-weight:bold;padding:6px 12px}
+h1,h2,h3 {margin:0;opacity:0.75}
+h2 {line-height: 1em;width:1.4em;position: absolute;top: -6px;right: 2px}
